@@ -1,0 +1,17 @@
+ZabbixServerList=ZabbixServer
+ZabbixServer.Address=192.168.2.11
+ZabbixServer.Port=10051
+OrabbixDaemon.PidFile=/opt/orabbix/logs/orabbix.pid
+OrabbixDaemon.Sleep=300
+OrabbixDaemon.MaxThreadNumber=100
+DatabaseList=xe
+DatabaseList.MaxActive=10
+DatabaseList.MaxWait=100
+DatabaseList.MaxIdle=1
+CRMDB.Url=jdbc:oracle:thin:@192.168.2.10:1521:xe
+CRMDB.User=zabbix
+CRMDB.Password=zabbix
+CRMDB.MaxActive=10
+CRMDB.MaxWait=100
+CRMDB.MaxIdle=1
+CRMDB.QueryListFile=/opt/orabbix/conf/query.prop
